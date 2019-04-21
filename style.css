@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    font-size:20px;
+  }
+  #header{
+    color: orange;
+    position : fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:grey;
+    min-height:40px;
+    padding:0px 20px;
+    padding-top:15px;
+    display : flex;
+    justify-content : space-between;
+    z-index:1;
+  }
+  #logo{
+    margin:2px;
+    display:flex;
+    justify-content: flex-start;
+  }
+  #header-img{
+    height:40px;
+    width:40px;
+    margin-bottom:6px;
+    margin-top:-8px;
+    margin-right:8px;
+  }
+  #nav-bar{
+    color: orange;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .nav-link{
+    color: orange;
+    margin:2px 34px;
+    padding:2px;
+  }
+  a{
+      color:black;
+      text-decoration: none;
+  }
+  #main{
+    padding-top:35px;
+  }
+  #container{
+    max-width:70%;
+    margin:0px auto;
+  }
+  .center{
+    margin:0 auto;
+    text-align:center;
+  }
+  #aminities{
+    display:flex;
+    justify-content:space-around;
+  }
+  #amenities{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+  }
+  .amenity{
+    width:302px;
+    margin:20px;
+    padding:20px;
+  }
+  .amenity .content{
+    height:40px;
+    background:orange;
+    padding-top:18px;
+  }
+
+ .image {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    position: relative;
+    background-image: url("1.jpg");
+  }
+   img{
+       height:100%;
+       width:100%;
+ }
+
+  #pricing{
+    display:flex;
+    justify-content:space-around;
+    margin:10px;
+    margin-top:50px;
+    
+  }
+  .pricing{
+    background:darkgrey;
+    width:250px;
+    text-align:center;
+  }
+  #interior{
+    margin:50px;
+  }
+  .head{
+    background-color:grey;
+    height:30px;
+    padding:4px;
+    text-align:center;
+  }
+  li{
+    list-style-type:none;
+    text-align:left;
+    margin:8px;
+  }
+  button{
+    margin:10px;
+    width:100px;
+    height:30px;
+    background-color:orange;
+    border:2px solid orange;
+    border-radius:4px;
+  }
+  input[type="email"]{
+      border: 2px solid greenyellow;
+      border-radius: 4px;
+      width: 25%;
+      height: 4%;
+  }
+  input[type="submit"]{
+    border: 2px solid green;
+    border-radius: 4px;
+    width: 8%;
+    height: 4%;
+}
+  h1{
+      font-size: 60px;
+      color: brown;
+  }
+h2{
+  color: brown;
+
+}
+#footer{
+  background-color:grey;
+  margin-bottom: 0;
+  height: 45px;
+}
+  @media(max-width:500px)
+  {
+    .amenity{
+      width:100%;
+    }
+    .pricing{
+      width:100%;
+    }
+  }
+  
